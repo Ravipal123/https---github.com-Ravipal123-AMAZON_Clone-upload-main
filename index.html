@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon_Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="address border">
+                <p class="add-1">Deliver to</p>
+                <div class="add-logo">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-2">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input type="text" placeholder="Search on Amazon"  class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="language-container border" >
+                <p>English</p>
+                <div class="language-image">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.Jtg-Y2nWrLAEED0hgSIrIgHaD_&pid=Api&rs=1&c=1&qlt=95&w=222&h=119" alt="american flag">
+                </div>
+            </div>
+
+            <div class="nav-signin border">
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+
+            <div class="nav-signin border">
+                <p><span>Return</span></p>
+                <p class="nav-second">& Order</p>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-all border">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-opt">
+                <p class="p1 border">Today's Deals</p>
+                <p class="p2 border">Customer Service</p>    
+                <p class="p3 border">Registry</p>   
+                <p class="p4 border">Gift Cards</p>   
+                <p class="p5 border">Sell</p>    
+            </div>
+            <div class="panel-deals border">
+                Shop great deals now
+            </div>
+
+        </div>
+    </header>
+
+    <section>
+        <div class="image-container">
+            <div class="image-list">
+                <div class="image-item">
+                    <img src="https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg" alt="image1">
+                </div>
+                <div class="image-item">
+                    <img src="https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg" alt="image1">
+                </div>
+                <div class="image-item">
+                    <img src="https://m.media-amazon.com/images/I/71U-Q+N7PXL._SX3000_.jpg" alt="image1">
+                </div>
+                <div class="image-item">
+                    <img src="https://m.media-amazon.com/images/I/61zAjw4bqPL._SX3000_.jpg" alt="image1">
+                </div>
+            </div>
+            <div class="image-btn">
+                <button class="btn1" id="btn1"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="btn1" id="btn2"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>   
+        </div>
+    </section>
+    <main class="main">
+        <div class="product-container">
+            <div class="gaming">
+                <h2>Gaming accessories</h2>
+                <div class="gaming-product">
+                    <div class="card-nested">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.KzpHi9G0gGOUvCIgxqXzNgHaHa&pid=Api&P=0&h=180" alt="headset">
+                        <p>Headsets</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.M90tdjXardZX_vGARJWrSAHaED&pid=Api&P=0&h=180" alt="Keyboards">
+                        <p>Keyboards</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.Fxlat22gXgI2ykiiJroQSAHaHa&pid=Api&P=0&h=180" alt="Computer mice">
+                        <p>Computer mice</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.ESYgSopt2mgwVgPoaed7iQHaHa&pid=Api&P=0&h=180" alt="Chairs">
+                        <p>Chairs</p>
+                    </div>
+                </div>
+                <div class="see"><a href="#">See more</a></div>
+
+            </div>
+            <div class="gaming">
+                <h2>Shoping deals</h2>
+                <div class="gaming-product">
+                    <div class="card-nested">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.AoRT7d1UCIFmfALzVCt5PAHaJA&pid=Api&P=0&h=180" alt="headset">
+                        <p>jeans</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.4sh91uw8dbtBB_bRfxxwCAHaJ4&pid=Api&P=0&h=180" alt="Keyboards">
+                        <p>Top</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.tUIaPs623OfUgkmGnqqj5QHaLG&pid=Api&P=0&h=180" alt="Computer mice">
+                        <p>Dresses</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.GwfJpJulnfE_B120ClLSbAHaHa&pid=Api&P=0&h=180" alt="Chairs">
+                        <p>Shoes</p>
+                    </div>
+                </div>
+                <div class="see"><a href="#">See more</a></div>
+
+            </div>
+            <div class="gaming">
+                <h2>Health & Personal Care</h2>
+                <div class="gaming-product">
+                    <div class="card-nested">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.1XySrLeAAiZYv-TI5Q-ABQHaHa&pid=Api&P=0&h=180" alt="headset">
+                        <p>Dove Pack</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.1Fp0xYYFyOyPiy1O0z3MZwHaD_&pid=Api&P=0&h=180" alt="Keyboards">
+                        <p>Colagte Pack</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.UTr0ZlfaPZBMTVsFFxDuSwHaHa&pid=Api&P=0&h=180" alt="Computer mice">
+                        <p>Mouth Wash</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.jBQt2kh7U6yE61ADSq7mmgHaE7&pid=Api&P=0&h=180" alt="Chairs">
+                        <p>Neem</p>
+                    </div>
+                </div>
+                <div class="see"><a href="#">See more</a></div>
+
+            </div>
+            <div class="gaming">
+                <h2>Gaming accessories</h2>
+                <div class="gaming-product">
+                    <div class="card-nested">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.KzpHi9G0gGOUvCIgxqXzNgHaHa&pid=Api&P=0&h=180" alt="headset">
+                        <p>Headsets</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.M90tdjXardZX_vGARJWrSAHaED&pid=Api&P=0&h=180" alt="Keyboards">
+                        <p>Keyboards</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.Fxlat22gXgI2ykiiJroQSAHaHa&pid=Api&P=0&h=180" alt="Computer mice">
+                        <p>Computer mice</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.ESYgSopt2mgwVgPoaed7iQHaHa&pid=Api&P=0&h=180" alt="Chairs">
+                        <p>Chairs</p>
+                    </div>
+                </div>
+                <div class="see"><a href="#">See more</a></div>
+
+            </div>
+        </div>
+        <div class="product-container">
+            <div class="gaming">
+                <h2>Gaming accessories</h2>
+                <div class="gaming-product">
+                    <div class="card-nested">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.KzpHi9G0gGOUvCIgxqXzNgHaHa&pid=Api&P=0&h=180" alt="headset">
+                        <p>Headsets</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.M90tdjXardZX_vGARJWrSAHaED&pid=Api&P=0&h=180" alt="Keyboards">
+                        <p>Keyboards</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.Fxlat22gXgI2ykiiJroQSAHaHa&pid=Api&P=0&h=180" alt="Computer mice">
+                        <p>Computer mice</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.ESYgSopt2mgwVgPoaed7iQHaHa&pid=Api&P=0&h=180" alt="Chairs">
+                        <p>Chairs</p>
+                    </div>
+                </div>
+                <div class="see"><a href="#">See more</a></div>
+
+            </div>
+            <div class="gaming">
+                <h2>Gaming accessories</h2>
+                <div class="gaming-product">
+                    <div class="card-nested">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.KzpHi9G0gGOUvCIgxqXzNgHaHa&pid=Api&P=0&h=180" alt="headset">
+                        <p>Headsets</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.M90tdjXardZX_vGARJWrSAHaED&pid=Api&P=0&h=180" alt="Keyboards">
+                        <p>Keyboards</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.Fxlat22gXgI2ykiiJroQSAHaHa&pid=Api&P=0&h=180" alt="Computer mice">
+                        <p>Computer mice</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.ESYgSopt2mgwVgPoaed7iQHaHa&pid=Api&P=0&h=180" alt="Chairs">
+                        <p>Chairs</p>
+                    </div>
+                </div>
+                <div class="see"><a href="#">See more</a></div>
+
+            </div>
+            <div class="gaming">
+                <h2>Gaming accessories</h2>
+                <div class="gaming-product">
+                    <div class="card-nested">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.KzpHi9G0gGOUvCIgxqXzNgHaHa&pid=Api&P=0&h=180" alt="headset">
+                        <p>Headsets</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.M90tdjXardZX_vGARJWrSAHaED&pid=Api&P=0&h=180" alt="Keyboards">
+                        <p>Keyboards</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.Fxlat22gXgI2ykiiJroQSAHaHa&pid=Api&P=0&h=180" alt="Computer mice">
+                        <p>Computer mice</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.ESYgSopt2mgwVgPoaed7iQHaHa&pid=Api&P=0&h=180" alt="Chairs">
+                        <p>Chairs</p>
+                    </div>
+                </div>
+                <div class="see"><a href="#">See more</a></div>
+
+            </div>
+            <div class="gaming">
+                <h2>Gaming accessories</h2>
+                <div class="gaming-product">
+                    <div class="card-nested">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.KzpHi9G0gGOUvCIgxqXzNgHaHa&pid=Api&P=0&h=180" alt="headset">
+                        <p>Headsets</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.M90tdjXardZX_vGARJWrSAHaED&pid=Api&P=0&h=180" alt="Keyboards">
+                        <p>Keyboards</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.Fxlat22gXgI2ykiiJroQSAHaHa&pid=Api&P=0&h=180" alt="Computer mice">
+                        <p>Computer mice</p>
+                    </div>
+                    <div class="card-nested">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.ESYgSopt2mgwVgPoaed7iQHaHa&pid=Api&P=0&h=180" alt="Chairs">
+                        <p>Chairs</p>
+                    </div>
+                </div>
+                <div class="see"><a href="#">See more</a></div>
+
+            </div>
+        </div>
+        <section>
+            <div class="today-deals-containor">
+                <div class="today-deals-heading">
+                    <h1>Today's Deals</h1>
+                    <p><a href="#">See all deals</a></p>
+                </div>
+                <div class="today-deals-product-container">
+                    <div class="today-btn">
+                        <button class="today-btn1" id="slid-btn1">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </button>
+                        <button class="today-btn1" id="slid-btn2">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                    <div class="todaydealsproduct-list">
+                        <div class="today-deals-product-item">
+                            <img src="https://m.media-amazon.com/images/I/31sf3QMmsPL._AC_SY400_.jpg" alt="shoe">
+                            <div class="discout-container">
+                                <a href="#">Up to 10%off</a>
+                                <a href="#">Deals of the day</a>
+                                <div class="footwear"><p>Portable serge</p></div>
+                            </div>
+                        </div>
+                        <div class="today-deals-product-item">
+                            <img src="https://m.media-amazon.com/images/I/410YG45xOfL._AC_SY400_.jpg" alt="shoe">
+                            <div class="discout-container">
+                                <a href="#">Up to 53%off</a>
+                                <a href="#">Deals of the day</a>
+                                <div class="footwear"><p>Bravo pieces Stainie</p></div>
+                            </div>
+                        </div>
+                        <div class="today-deals-product-item">
+                            <img src="	https://m.media-amazon.com/images/I/51HFO6oJslL._AC_SY400_.jpg" alt="shoe">                                
+                            <div class="discout-container">
+                            <a href="#">Up to 35%off</a>
+                            <a href="#">Deals of the day</a>
+                            <div class="footwear"><p>RoadPro Rp</p></div>
+                        </div>
+                        <div class="today-deals-product-item">
+                            <img src="https://m.media-amazon.com/images/I/51iA5TURVJL._AC_SY400_.jpg" alt="shoe">                                
+                            <div class="discout-container">
+                            <a href="#">Up to 5%off</a>
+                            <a href="#">Deals of the day</a>
+                            <div class="footwear"><p>water pump</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="today-deals-containor">
+                <div class="today-deals-heading">
+                    <h1>Today's Deals</h1>
+                    <p><a href="#">See all deals</a></p>
+                </div>
+                <div class="today-deals-product-container">
+                    <div class="today-btn">
+                        <button class="today-btn1" id="slid-btn1">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </button>
+                        <button class="today-btn1" id="slid-btn2">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                    <div class="todaydealsproduct-list">
+                        <div class="today-deals-product-item">
+                            <img src="https://m.media-amazon.com/images/I/31sf3QMmsPL._AC_SY400_.jpg" alt="shoe">
+                            <div class="discout-container">
+                                <a href="#">Up to 10%off</a>
+                                <a href="#">Deals of the day</a>
+                                <div class="footwear"><p>Portable serge</p></div>
+                            </div>
+                        </div>
+                        <div class="today-deals-product-item">
+                            <img src="https://m.media-amazon.com/images/I/410YG45xOfL._AC_SY400_.jpg" alt="shoe">
+                            <div class="discout-container">
+                                <a href="#">Up to 53%off</a>
+                                <a href="#">Deals of the day</a>
+                                <div class="footwear"><p>Bravo pieces Stainie</p></div>
+                            </div>
+                        </div>
+                        <div class="today-deals-product-item">
+                            <img src="	https://m.media-amazon.com/images/I/51HFO6oJslL._AC_SY400_.jpg" alt="shoe">                                
+                            <div class="discout-container">
+                            <a href="#">Up to 35%off</a>
+                            <a href="#">Deals of the day</a>
+                            <div class="footwear"><p>RoadPro Rp</p></div>
+                        </div>
+                        <div class="today-deals-product-item">
+                            <img src="https://m.media-amazon.com/images/I/51iA5TURVJL._AC_SY400_.jpg" alt="shoe">                                
+                            <div class="discout-container">
+                            <a href="#">Up to 5%off</a>
+                            <a href="#">Deals of the day</a>
+                            <div class="footwear"><p>water pump</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="today-deals-containor">
+                <div class="today-deals-heading">
+                    <h1>Today's Deals</h1>
+                    <p><a href="#">See all deals</a></p>
+                </div>
+                <div class="today-deals-product-container">
+                    <div class="today-btn">
+                        <button class="today-btn1" id="slid-btn1">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </button>
+                        <button class="today-btn1" id="slid-btn2">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                    <div class="todaydealsproduct-list">
+                        <div class="today-deals-product-item">
+                            <img src="https://m.media-amazon.com/images/I/31sf3QMmsPL._AC_SY400_.jpg" alt="shoe">
+                            <div class="discout-container">
+                                <a href="#">Up to 10%off</a>
+                                <a href="#">Deals of the day</a>
+                                <div class="footwear"><p>Portable serge</p></div>
+                            </div>
+                        </div>
+                        <div class="today-deals-product-item">
+                            <img src="https://m.media-amazon.com/images/I/410YG45xOfL._AC_SY400_.jpg" alt="shoe">
+                            <div class="discout-container">
+                                <a href="#">Up to 53%off</a>
+                                <a href="#">Deals of the day</a>
+                                <div class="footwear"><p>Bravo pieces Stainie</p></div>
+                            </div>
+                        </div>
+                        <div class="today-deals-product-item">
+                            <img src="	https://m.media-amazon.com/images/I/51HFO6oJslL._AC_SY400_.jpg" alt="shoe">                                
+                            <div class="discout-container">
+                            <a href="#">Up to 35%off</a>
+                            <a href="#">Deals of the day</a>
+                            <div class="footwear"><p>RoadPro Rp</p></div>
+                        </div>
+                        <div class="today-deals-product-item">
+                            <img src="https://m.media-amazon.com/images/I/51iA5TURVJL._AC_SY400_.jpg" alt="shoe">                                
+                            <div class="discout-container">
+                            <a href="#">Up to 5%off</a>
+                            <a href="#">Deals of the day</a>
+                            <div class="footwear"><p>water pump</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="footpanel1">
+            Back to top
+        </div>
+        <div class="footpanel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About Amazon</a>
+                <a href="">Investor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a href="#">Sell products on Amazon</a>
+                <a href="#">Sell on Amazon Business</a>
+                <a href="#">Sell apps on Amazon</a>
+                <a href="">Become an Affiliate</a>
+                <a href="#">Advertise Your Products</a>
+                <a href="#">Self-Publish with Us</a>
+                <a href="#">Host an Amazon Hub</a>
+            </ul>
+            <ul>
+                <p>Amazon Payment Products</p>
+                <a href="#">Amazon Business Card</a>
+                <a href="#">Shop with Points</a>
+                <a href="#">Reload Your Balance</a>
+                <a href="">Amazon Currency Converter</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a href="#">Amazon and COVID-19</a>
+                <a href="#">Your Account</a>
+                <a href="#">Your Orders</a>
+                <a href="">Shipping Rates & Policies</a>
+                <a href="#">Returns & Replacements</a>
+                <a href="#">Manage Your Content and Devices</a>
+                <a href="#">Amazon Assistant</a>
+                <a href="#">Help</a>
+            </ul>
+        </div>
+        <div class="footpanel3">
+            <img src="amazon_logo.png" alt="logo">
+            <button>English</button>
+            <button>Indian Rupee</button>
+            <button>Usa</button>
+        </div>
+        <div class="footpanel4">
+            <div class="footpanel4-box1">
+                <div class="box11">
+                    <ul>
+                        <a href="#"><b>Amazon Music</b></a>
+                        <a href="#">Stream millions</a>
+                        <a href="#">of songs</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>Amazon Global</b></a>
+                        <a href="#">Ship Order</a>
+                        <a href="#">Internationall</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>ComiXology</b></a>
+                        <a href="#">Thousand of</a>
+                        <a href="#">Digital comics</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>Prime video direct</b></a>
+                        <a href="#">video</a>
+                        <a href="#">Distribution</a>
+                        <a href="#">Made Easy</a>
+                    </ul>
+                </div>
+                <div class="box11">
+                    <ul>
+                    <a href="#"><b>Amazon Adversying</b></a>
+                    <a href="#">Find,attract</a>
+                    <a href="#">and engage</a>
+                    <a href="#">customers</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>Home Service</b></a>
+                        <a href="#">Experienced</a>
+                        <a href="#">pros</a>
+                        <a href="#">happines</a>
+                        <a href="#">gurantee</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>DPRrivew</b></a>
+                        <a href="#">digital</a>
+                        <a href="#">photography</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>DPRrivew</b></a>
+                        <a href="#">digital</a>
+                        <a href="#">photography</a>
+                    </ul>
+                </div>
+                <div class="box11">
+                    <ul>
+                    <a href="#"><b>6pm</b></a>
+                    <a href="#">Score deals</a>
+                    <a href="#">on fashion</a>
+                    <a href="#">brand</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>Amazon Ignite</b></a>
+                        <a href="#">Sell your</a>
+                        <a href="#">origanl</a>
+                        <a href="#">educational</a>
+                        <a href="#">resources</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>Fabric</b></a>
+                        <a href="#">Sell your</a>
+                        <a href="#">origanl</a>
+                        <a href="#">educational</a>
+                        <a href="#">resources</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>Woot!</b></a>
+                        <a href="#">Sell your</a>
+                        <a href="#">origanl</a>
+                        <a href="#">educational</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>Neighbors App</b></a>
+                        <a href="#">Sell your</a>
+                        <a href="#">origanl</a>
+                        <a href="#">educational</a>
+                        <a href="#">resources</a>
+                    </ul>
+                </div>
+                <div class="box11">
+                    <ul>
+                        <a href="#"><b>AbeBooks</b></a>
+                        <a href="#">Sell your</a>
+                        <a href="#">origanl</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>Amazon Web Services</b></a>
+                        <a href="#">Sell your cloud</a>
+                        <a href="#">Computing serives</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>Goodread</b></a>
+                        <a href="#">Sell your cloud</a>
+                        <a href="#">Computing serives</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>Zapoor</b></a>
+                        <a href="#">Sell your cloud</a>
+                        <a href="#">Computing serives</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>Amazon Subscription</b></a>
+                        <a href="#"><b>Boxes</b></a>
+                        <a href="#">Computing serives</a>
+                    </ul>
+                </div>
+                <div class="box11">
+                    <ul>
+                        <a href="#"><p>ACX</p></a>
+                        <a href="#">Audiobook</a>
+                        <a href="#">Publishing</a>
+                        <a href="#">Made Easy</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><p>Audible</p></a>
+                        <a href="#">listento books &</a>
+                        <a href="#">Publishing</a>
+                        <a href="#">Made Easy</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><p>IMDb</p></a>
+                        <a href="#">listento books &</a>
+                        <a href="#">Publishing</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><p>Ring</p></a>
+                        <a href="#">listento books &</a>
+                        <a href="#">Publishing</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><p>PillPack</p></a>
+                        <a href="#">listento books &</a>
+                        <a href="#">Publishing</a>
+                    </ul>
+                </div>
+                <div class="box11">
+                    <ul>
+                        <a href="#"><b>Sell on Amazon</b></a>
+                        <a href="#">Start a selling</a>
+                        <a href="#">Acount</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>Book Despository</b></a>
+                        <a href="#">Start a selling</a>
+                        <a href="#">Acount</a>
+                        <a href="#">worldwide</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>IMDbPro</b></a>
+                        <a href="#">Start a selling</a>
+                        <a href="#">Acount</a>
+                        <a href="#">worldwide</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>eero Wifi</b></a>
+                        <a href="#">Start a selling</a>
+                        <a href="#">Acount</a>
+                    </ul>
+                </div>
+                <div class="box11">
+                    <ul>
+                        <a href="#"><b>Amazon Business</b></a>
+                        <a href="#">Everything for</a>
+                        <a href="#">Your Business</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>Box Office Mojo</b></a>
+                        <a href="#">Everything for</a>
+                        <a href="#">Your Business</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>Kindle Direct</b></a>
+                        <a href="#"><b>Publishing</b></a>
+                        <a href="#">Your Business</a>
+                        <a href="#">print publishing</a>
+                        <a href="#">made easy</a>
+                    </ul>
+                    <ul>
+                        <a href="#"><b>Blink</b></a>
+                        <a href="#">Your Business</a>
+                        <a href="#">print publishing</a>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="footpanel5">
+            <div class="pages">
+                <a href="#">Conditions of Use</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Your Ads Privacy choices</a>
+            </div>
+            <div class="copy-right">
+                © 1996-2023, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+
+
+        
+    </footer>
+
+
+    <script src="script.js" type="module"></script>
+
+</body>
+</html>
